@@ -1,0 +1,46 @@
+.imgContainer{
+  height: 80vh;
+  overflow: hidden;
+  padding: 3rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.thumbs {
+  display: grid;
+  grid-gap: .5rem;
+  grid-auto-flow: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.thumbContainer{
+    height: 8rem;
+    width: 8rem;
+    border: 1px solid #e2e8f0;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.thumbWrapper{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+  }
+
+.dialogImageContainer{
+  position: relative;
+  overflow: hidden;
+}
+
+.fullImageWrapper{
+  height: 90vh;
+  width: 90vh;
+  position: relative;
+  @media (max-width: 960px) {
+    height: 90vw;
+    width: 90vw;
+  }
+}

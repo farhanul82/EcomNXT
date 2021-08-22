@@ -1,0 +1,20 @@
+// Font variables
+$font-primary: 'Montserrat', sans-serif;
+
+//color variables
+$color-bg-1: #E5E5E5;
+$color-bg-2: #FAFAFA;
+$color-bg-3: #f7f8fa;
+$color-white: #FFFFFF;
+$color-text-primary: rgba(0, 0, 0, 0.87);
+$color-text-secondary: #2d3748;
+$color-cart-text-1: #5E5454;
+
+//mixins
+@mixin boxLayout {
+  font-size: 1.6rem;
+  display: flex;
+  background-color: $color-white;
+  border-radius: 5px;
+  padding: 1.2rem 1rem;
+}
